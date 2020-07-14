@@ -6,7 +6,7 @@ int main(){
   
   int choice :
   
-  cout<<("WorldChange version beta test v0.1.1publicBETA \n");
+  cout<<("WorldChange version beta test v0.1.2publicBETA \n");
   cout<<("choice :\n");
   cout<<("1 : Glass world\n");
   cout<<("2 : Black world\n");
