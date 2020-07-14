@@ -21,8 +21,14 @@ int main(){
   else if (choice == 2){
     system("python3 blackWorld.py");
   }
-  else if (choice == 3{
+  else if (choice == 3){
     system("python3 mineralWorld.py");
+  }
+  else if (choice == 4){
+    system("python3 pastelWorld.py");
+  }
+  else if (choice == 5){
+    cout<<("okay, exiting...");
   }
   return 0; 
 
