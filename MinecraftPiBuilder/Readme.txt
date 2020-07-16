@@ -14,3 +14,4 @@ all problems and bugs are here
 
 [-!-] mobTower.py : code not completed
 [ok] flatWorld.py : delagged, but is SLOW. (23 seconds)
+[ok] sandWorld.py : delagged, but is SLOW. (20 seconds)
