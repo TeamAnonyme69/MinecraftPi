@@ -22,11 +22,16 @@ def walls():
 def lava(y):
   mc.setBlocks(19, y, 19, -19, y, -19, 10)
   
-def wait(s): #le temps dans la cage de depart
-  sa = s / 10
-  sb = s*10
-  for a in range(sb):
-    color = randint(1, 14)
-    mc.player.setPos(0, 3, 0)
-    mc.setBlock(0, 2, 0, 35, color)
-    sleep(sa)
+def wait(): #le temps dans la cage de depart
+  for c in range(5, 1): 
+    for a in range(10):
+      color = randint(1, 14)
+      mc.player.setPos(0, 3, 0)
+      mc.setBlock(0, 2, 0, 35, color)
+      sleep(0.1)
+    mc.postToChat(c)
+def mainloop():
+  walls()
+  wait()
+  
+  
